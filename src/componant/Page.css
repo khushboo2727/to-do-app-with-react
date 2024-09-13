@@ -1,0 +1,71 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+   background-color: rgb(184, 115, 245);
+
+}
+.to-do-heading{
+    margin: 1vw;
+    padding: 1vw;
+    /* border: 2px solid black; */
+    margin-left: 2vw;
+    
+}
+h1{
+    border-radius:5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size:7vw;
+    
+}
+.to-do-form{
+    color: white;
+}
+.input-form-title {
+    color: #ffff;
+    background-color: black;
+    margin:3vw;
+    font-size: x-large;
+    padding: 1.3vw;
+    border: none;
+    border-radius: 2px;
+
+}
+.submit-btn{
+    font-size: x-large;
+    background-color: aliceblue;
+    font-weight: bold;
+    padding: 1vw;
+    border: none;
+    border-radius: 50px;
+}
+.no-task{
+    margin-left: 3.2vw;
+    margin-top: 1vw;
+}
+.to-do-ele{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    width: 80%;
+    margin: 0 3vw ;
+    margin-top: 1vw;
+    color: white;
+}
+.to-do-ele-data{
+    font-size: 1.8vw;
+    padding: .5vw;
+
+}
+.to-do-ele-btn{
+    margin: .7vw;
+    font-size: 1vw;
+    background-color: black;
+    color:  rgb(245, 115, 204);
+    padding: .4vw;
+    border-radius: 2px;
+    border: none;
+    border-radius: 50px;
+}
